@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  font-family: poppins;
+  letter-spacing: 0.185em;
+  height: 100%;
+  overflow-x: hidden;
+}
+.navbar {
+  position: absolute;
+  width: 1368px;
+  height: 125px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #3cccf9 0%, rgba(47, 173, 212, 0) 100%);
+}
+nav {
+  float: right;
+  line-height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a img:hover {
+  color: white;
+  transform: scale(2);
+}
+
+nav a:hover {
+  color: white;
+  transform: scale(1.4);
+  opacity: 0.8;
+}
+.name {
+  position: absolute;
+  width: 330px;
+  height: 50px;
+  left: 550px;
+  top: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34.2px;
+}
+.home {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  left: 260px;
+  top: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.1px;
+}
+.games {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  left: 385px;
+  top: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.1px;
+}
+.consoles {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  left: 890px;
+  top: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.1px;
+}
+.about {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  left: 1070px;
+  top: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.1px;
+}
+.search {
+  position: absolute;
+  width: 140px;
+  height: 20px;
+  left: 1190px;
+  top: 43px;
+  background: black;
+  color: #3cccf9;
+  cursor: pointer;
+}
+.search:hover {
+  color: white;
+  transform: scale(1.2);
+}
+#facebook {
+  position: absolute;
+  left: 30px;
+  top: 40px;
+}
+#instagram {
+  position: absolute;
+  left: 80px;
+  top: 40px;
+}
+#twitter {
+  position: absolute;
+  left: 130px;
+  top: 40px;
+}
+#youtube {
+  position: absolute;
+  left: 180px;
+  top: 40px;
+}
+.text {
+  position: absolute;
+  width: 370px;
+  height: 278px;
+  left: 840px;
+  top: 190px;
+  color: #60d1f4;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+}
+.text:hover {
+  color: white;
+  transform: scale(1.2);
+}
+hero-container {
+  border-radius: 21.375px;
+}
+.hero {
+  position: absolute;
+  width: 500px;
+  height: 380px;
+  left: 100px;
+  top: 180px;
+  background: rgba(170, 227, 245, 0.8);
+  border-radius: 21.375px;
+  border-width: 3px;
+  border: 2px solid #60d1f4;
+}
+.hero:hover {
+  color: white;
+  transform: scale(1.2);
+}
+.btn {
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  left: 895px;
+  top: 465px;
+  background: linear-gradient(180deg, #3ebfe8 0%, rgba(47, 173, 212, 0) 100%);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+.btn:hover {
+  transform: scale(1.4);
+}
+h3 {
+  padding: 2px 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  color: #110e0e;
+}

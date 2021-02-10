@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  font-family: Poppins;
+  background: rgba(0, 0, 0, 0.95);
+  letter-spacing: 0.185em;
+  font-style: normal;
+  height: 100%;
+  overflow-x: hidden;
+}
+header {
+  position: absolute;
+  width: 307px;
+  height: 77px;
+  left: 550px;
+  top: 20px;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #60d1f4;
+}
+header:hover {
+  color: white;
+  transform: scale(1.05);
+}
+img {
+  width: 100%;
+  height: auto;
+  border: 6px solid #60d1f4;
+}
+img:hover {
+  transform: scale(1.05);
+}
+#crysis {
+  position: absolute;
+  width: 720px;
+  height: 400px;
+  left: 330px;
+  top: 130px;
+}
+#crysis h4 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #60d1f4;
+  left: 330px;
+  top: 420px;
+}
+#pubg {
+  position: absolute;
+  width: 720px;
+  height: 400px;
+  left: 330px;
+  top: 620px;
+}
+#pubg h4 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  color: #60d1f4;
+  left: 340px;
+  top: 420px;
+}
+#gwar {
+  position: absolute;
+  width: 720px;
+  height: 400px;
+  left: 330px;
+  top: 1110px;
+}
+#gwar h4 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #60d1f4;
+  left: 280px;
+  top: 420px;
+}
+#mcombat {
+  position: absolute;
+  width: 720px;
+  height: 400px;
+  left: 330px;
+  top: 1600px;
+}
+#mcombat h4 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #60d1f4;
+  left: 230px;
+  top: 420px;
+}
+a {
+  position: fixed;
+  text-decoration: none;
+  color: #60d1f4;
+  font-weight: bold;
+  font-size: 53px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+a:hover {
+  color: white;
+  transform: scale(1.1);
+}

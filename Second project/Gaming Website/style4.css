@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: black;
+  font-family: poppins;
+}
+.box {
+  position: relative;
+  width: 450px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+}
+.box:before,
+.box:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: -1;
+  background: linear-gradient(45deg, #ffbc00, #ff0058,#3fd52b,#2badd5);
+}
+.box:after {
+  filter: blur(40px);
+}
+.content {
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+  top: 50px;
+}
+header {
+  font-size: 25px;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  border: 5px solid #e11f59;
+  animation: borderbg 3s linear infinite;
+}
+.logo:after {
+  filter: blur(40px);
+}
+@keyframes borderbg {
+  0% {
+    border: 5px solid red;
+  }
+  25% {
+    border: 5px solid green;
+  }
+  50% {
+    border: 5px solid blue;
+  }
+  75% {
+    border: 5px solid yellow;
+  }
+  100% {
+    border: 5px solid purple;
+  }
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: linear-gradient(
+    45deg,
+    red,
+    yellow,
+    green,
+    blue,
+    yellow,
+    purple
+  );
+  position: relative;
+  top: 5px;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
