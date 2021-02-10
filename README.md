@@ -1,2 +1,2 @@
 # Website-Projects
-Porjects I do in my Web Development journey
+Porjects I did in my Web Development journey
